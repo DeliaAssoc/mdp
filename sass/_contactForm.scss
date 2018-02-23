@@ -1,0 +1,141 @@
+/* Contact Form
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Sidbar Contact
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#side-bar-contact{
+
+	ul{
+		margin: 0px !important;
+		padding: 0px !important;
+		list-style-type: none;
+	}
+	li{
+		margin: 0px !important;
+		padding: 0px 0px 20px 0px !important;
+	}
+	.sign-email{
+		float: left;
+		width: 65%;
+	}
+
+	.sign-submit{
+		float: right;
+		width: 33%;
+	}
+
+		input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+	    height: 33px;
+	    padding: 6px 10px;
+	    background-color: #fff;
+	    border: 1px solid $grey-border;
+	    border-radius: 0px !important;
+	    box-shadow: none;
+	    box-sizing: border-box;
+	    width: 100% !important;
+	    -webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+    	-moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+    	box-shadow: inset 2px 2px 2px 0px #dddddd;
+	}
+
+	 textarea {
+	 	min-height: 120px !important;
+	}
+
+	input[type="submit"] {	
+			margin-top: 30px;
+	    	text-align: center;
+	    	font-size: 1.5rem;
+	    	width: 40%;
+	    	padding: 0px 0px;
+	    	height: 40px;
+	  	}
+
+}
+
+
+
+
+/* Front Page Contact
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#sign-up-form{
+	margin: 0 auto;
+    margin-top: 20px;
+
+    input[type="submit"] {
+    	line-height: 2;	
+    	height: 33px;
+    	text-align: center;
+    	font-size: 1.4rem;
+    	width: 100%;
+  }
+  	input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+  		
+	    height: 33px;
+	    padding: 6px 10px;
+	    background-color: #fff;
+	    border: 1px solid $grey-border;
+	    border-radius: 0px !important;
+	    box-shadow: none;
+	    box-sizing: border-box;
+	    width: 100% !important;
+	    -webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+    	-moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+    	box-shadow: inset 2px 2px 2px 0px #dddddd;
+	}
+}
+
+.sign-up-wrapper{
+	.sign-email{
+		float: left;
+		width: 65%;
+	}
+
+	.sign-submit{
+		float: right;
+		width: 33%;
+	}
+
+}
+
+
+@media (max-width: 480px) {
+	#sign-up-form{
+		margin: 0 auto;
+    	margin-top: 10px;
+
+	    input[type="submit"] {	
+	    	text-align: center;
+	    	font-size: 1rem;
+	    	width: 100%;
+	    	padding: 0px 0px;
+	  	}
+	}
+
+	.sign-up-wrapper{
+	.sign-email{
+		float: left;
+		width: 55%;
+	}
+
+	.sign-submit{
+		float: right;
+		width: 43%;
+	}
+
+	input[type="email"]{
+			font-family:'Lato', sans-serif;
+			border: $grey-border solid 1px;
+			border-radius: 0px;
+			width: 100%;
+
+		}
+	}
+}
+
+
+
+
+

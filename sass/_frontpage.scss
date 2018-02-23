@@ -1,0 +1,228 @@
+/*--------------------------------------------------------------
+# Front Page
+--------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------
+# Save $25
+--------------------------------------------------------------*/
+
+#sign-up{
+		padding-top: 10px;
+	    padding-bottom: 30px;
+	}
+
+	#money h1{
+		margin-top: 45px;
+		font-size: 5rem;
+		color: $primary-red;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+
+	#join-email p{
+		padding-top: 10px;
+		color: $primary-blue;
+		line-height: 1.5;
+		font-size: 1.5rem;
+		font-weight: 700;
+		margin-top: 45px;
+	}
+
+@media (max-width: 991px) {
+
+	#money h1{
+		margin-top: 50px;
+	}
+
+	#join-email p{
+		font-size: 2rem;
+	}
+}
+
+@media (max-width: 768px) {
+	#sign-up{
+		padding-top: 10px;
+	    padding-bottom: 30px;
+	}
+
+
+	#money h1{
+		margin-top: 60px;
+		font-size: 4rem;
+		font-family: 'Oswald', sans-serif;
+	}
+
+	#join-email p{
+		padding-top: 10px;
+		font-size: 2rem;
+		margin-top: 45px;
+	}
+}
+
+@media (max-width: 564px) {
+	#sign-up{
+		padding-top: 10px;
+	    padding-bottom: 10px;
+	}
+
+
+	#money h1{
+		margin-top: 40px;
+		font-size: 2rem;
+		font-family: 'Oswald', sans-serif;
+	}
+
+	#join-email p{
+		padding-top: 10px;
+		font-size: 1.3rem;
+		margin-top: 25px;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+# Father Son
+--------------------------------------------------------------*/
+
+#father-son{
+	position: relative;
+	background-color: $grey-blue-color;
+	padding-top: 50px;
+
+	h3{
+		font-weight: 700;
+		color: $primary-blue;
+		padding-top: 0px;
+	}
+}
+
+#robert{
+	left: 20px;
+	top: 230px;
+}
+
+#bobby{
+	right: 60px;
+	top: 210px;
+}
+
+.names{
+	font-size: 1.2rem;
+	line-height: 1.3;
+	position: absolute;
+	color: $white-color;
+	weight: 700;
+	text-align:center;
+}
+
+
+@media (max-width: 991px) {
+	#father-son{
+		background-color: transparent;
+
+		h3{
+			padding-top: 40px;
+		}
+	}
+		img{
+			margin: 0 auto;
+		}
+
+	.father-son-info{
+		border-top: $grey-top-border solid 1px;
+	}
+
+	.father-son-img{
+		width: 440px;
+		margin: 0 auto;
+	}
+
+	#robert{
+		left: 55px;
+		top: 230px;
+	}
+
+	#bobby{
+		right: 70px;
+		top: 240px;
+	}
+
+}
+
+
+@media (max-width: 450px) {
+	#father-son{
+		padding-top: 0px;
+
+		h3{
+			padding-top: 25px;
+		}
+	}
+	.father-son-img{
+		width: 209px;
+		height: 150px;
+		overflow: hidden;
+		margin: 0px;
+	}
+
+	.father-son-img img{
+		width: 100%;
+		margin-top: 0px;
+	}
+
+		#robert{
+		left: 22px;
+		top: 75px;
+	}
+
+		#bobby{
+			right: 4px;
+			top: 90px;
+		}
+		.names{
+		font-size: 1.1rem;
+		position: absolute;
+		color: $white-color;
+		weight: 700;
+		width: 50px;
+		text-align: left;
+	}
+}
+
+
+/*--------------------------------------------------------------
+# Affiliations
+--------------------------------------------------------------*/
+
+#affiliations{
+	padding: 30px 0px 50px 0px;
+	h2{
+		color: $primary-blue;
+		font-weight: 700;
+		font-size: 2.4rem;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+}
+
+@media (min-width: 767px) {
+	#affiliations{
+		.col-md-6 {
+	  	padding-right: 0px;
+	  	padding-left: 0px;
+   
+	}
+	#img-affiliate-left{
+		float:right;
+		
+	}
+
+	}
+}
+
+

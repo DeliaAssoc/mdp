@@ -1,0 +1,185 @@
+/*--------------------------------------------------------------
+# Page
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Banner
+--------------------------------------------------------------*/
+
+
+.banner-bg{
+	background-image: -ms-linear-gradient(top, #3A7CBE 0%, #1B328A 100%);
+  	background-image: -moz-linear-gradient(top, #3A7CBE 0%, #1B328A 100%);
+  	background-image: -o-linear-gradient(top, #3A7CBE 0%, #1B328A 100%);
+  	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3A7CBE), color-stop(100, #1B328A));
+  	background-image: -webkit-linear-gradient(top, #3A7CBE 0%, #1B328A 100%);
+  	background-image: linear-gradient(to bottom, #3A7CBE 0%, #1B328A 100%);
+	border-bottom: solid $primary-green 8px;
+
+		.container{
+		height: 204px;
+
+			h1{
+				text-transform: uppercase;
+				color: $white-color;
+				font-family: 'Lato', sans-serif;
+				line-height: 5;
+			}
+	}
+}
+
+.banner-bg{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position: 60% 100%;
+}
+
+@media (max-width: 990px) {
+	.banner-bg{
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 35% 100%;
+		.container{
+			h1{
+			padding-top: 10px;
+			line-height: 1.2;
+			}
+		}
+	}
+
+}
+
+
+/*--------------------------------------------------------------
+# Fonts
+--------------------------------------------------------------*/
+#main{
+	padding-bottom: 30px;
+}
+
+
+#main .page{ 
+
+	h2{
+		margin-top: 0px;
+		font-weight: 700;
+		color: $primary-blue;
+	}
+
+	h3{
+		font-weight: 700;
+		color: $primary-blue;
+	}
+
+	h4{
+		font-weight: 700;
+		color: $primary-red;
+	}
+
+	ul{
+		padding-left: 20px;
+		margin: 0px;
+	}
+
+	li{
+		color: $text-color;
+		margin: 0px;
+		padding-bottom: 20px;
+		font-family: 'Lato', sans-serif;
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 550px) {
+
+	#main .page{ 
+
+		li{
+			
+			padding-bottom: 15px;
+			font-size: 1.3rem;
+		}
+	}
+
+}
+
+
+	
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+
+.breadcrumbs{
+	margin-top: 20px;
+
+	a{
+		font-family: 'Lato', sans-serif;
+		color: $text-color;
+		text-decoration: none;
+
+		&:hover{
+			color: $primary-red;
+		}
+	}
+	
+}
+
+
+/*--------------------------------------------------------------
+# Side Page
+--------------------------------------------------------------*/
+
+.widget-area{
+	margin-top: 30px;
+}
+
+@media (max-width: 991px) {
+	.widget-area {
+	    margin: 0 auto;
+	    margin-top: 30px;
+	    width: 90%;
+	}
+	.metaslider {
+		margin: 0 auto;
+	}
+}
+
+
+.youtube{
+	width: 100%;
+	height: 290px;
+}
+
+@media (max-width: 991px) {
+	.youtube{
+		height: 380px;
+	}
+}
+
+@media (max-width: 750px) {
+	.youtube{
+		height: 310px;
+	}
+}
+
+@media (max-width: 480px) {
+	.youtube{
+		height: 220px;
+	}
+}
+
+@media (max-width: 350px) {
+	.youtube{
+		height: 160px;
+	}
+}
+
+
+/*--------------------------------------------------------------
+# Towns
+--------------------------------------------------------------*/
+
+.towns-heading{
+	margin-top: 30px !important;
+}

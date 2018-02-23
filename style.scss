@@ -1,0 +1,39 @@
+/*
+Theme Name: Meyer Depew
+Theme URI: http://underscores.me/
+Author: Cory Pierson
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: 
+Tags:
+
+
+Skeleton Template is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+@import "sass/_variables.scss";
+@import "sass/_bootstrap.scss";
+@import "sass/_underscores.scss";
+@import "sass/_queries.scss";
+@import "sass/_base.scss";
+@import "sass/_typography.scss";
+@import "sass/_buttons.scss";
+@import "sass/_menu.scss";
+@import "sass/_header.scss";
+@import "sass/_footer.scss";
+@import "sass/_frontpage.scss";
+@import "sass/_page.scss";
+@import "sass/_blog.scss";
+@import "sass/_homeSlider.scss";
+@import "sass/_sideSlider.scss";
+@import "sass/_frontTruckBanner.scss";
+@import "sass/_contactForm.scss";
+
+
+

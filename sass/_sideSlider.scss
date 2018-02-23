@@ -1,0 +1,112 @@
+/*--------------------------------------------------------------
+# Side Page Slider
+--------------------------------------------------------------*/
+
+.flex-control-paging li a.flex-active {
+    background: #000;
+    background: rgba(50,61,131,1) !important;
+    cursor: default;
+}
+
+.side-page-slider{
+	.metaslider .caption-wrap{
+		height: 100%;
+		background-color: transparent;
+		opacity: 1;
+	}
+
+#generator-saving{
+	margin: 0 auto;
+		h3{
+			padding-top: 5px;
+			font-family: 'Lato', sans-serif;
+			font-weight: 700;
+			text-align: center;
+			color: $white-color;
+			margin: 0px;
+			font-size: 2rem;
+		}
+		h1{
+			padding-top: 0px;
+			margin: 0px;
+			text-align: center;
+			font-family: 'Oswald', sans-serif;
+			font-weight: 400;
+			font-size: 5.5rem;
+		}
+
+		p{
+			font-size: 1.5rem;
+			padding-top: 85px;
+			text-align: center;
+			color: $white-color;
+			font-weight: 700;
+
+		}
+
+		.chat-button{
+			margin: 0 auto;
+			margin-top: 5px;
+			border: $white-color solid 1px;
+			line-height: 2.5;
+			width: 180px;
+		}
+	}
+
+}
+
+@media (max-width: 550px) {
+	#generator-saving{
+		h1{
+			padding-top: 0px;
+			margin: 0px;
+			text-align: center;
+			font-family: 'Oswald', sans-serif;
+			font-weight: 400;
+			font-size: 4.5rem !important;
+		}
+
+		p{
+			font-size: 1.3rem !important;
+			padding-top: 110px !important;
+			text-align: center;
+			color: $white-color;
+			font-weight: 700;
+		}
+		.chat-button{
+			height: 30px;
+			margin: 0 auto;
+			margin-top: 10px !important;
+			border: $white-color solid 1px;
+			line-height: 2 !important;
+			width: 180px;
+		}
+
+	}
+}
+
+@media (max-width: 350px) {
+	#generator-saving{
+		
+		h3{
+			font-size: 1.5rem !important;
+		}
+
+		p{
+			font-size: 1.3rem !important;
+			padding-top: 50px !important;
+		}
+
+
+	}
+}
+
+/*Dennis and Judy
+
+<div id="dennis-judy">
+<div id="talk-hosts"><p>Midday Talk Hosts</p><p>Dennis Malloy</p><p>&Judi Franco</p><p>Install a Whole House Standby</p></div>
+<p>“Get a Free Consultation on a Honeywell Standy Power Generator, and rest easy knowing you won’t lose power again!"</p>
+<p>Click to hear Dennis & Judi talk about this offer from Meyer & Depew</p>
+</div>
+
+*/

@@ -1,0 +1,144 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header-background{
+	background-color: white;
+}
+
+
+.one-edge-shadow {
+	-webkit-box-shadow: 0 8px 6px -6px $shadow-edge;
+	   -moz-box-shadow: 0 8px 6px -6px $shadow-edge;
+	        box-shadow: 0 8px 6px -6px $shadow-edge;
+}
+
+@media (max-width: 991px) {
+    .one-edge-shadow {
+	-webkit-box-shadow: 0 0px 0px 0px $shadow-edge;
+	   -moz-box-shadow: 0 0px 0px 0px $shadow-edge;
+	        box-shadow: 0 0px 0px 0px $shadow-edge;
+	}
+	.one-edge-shadow-after {
+	-webkit-box-shadow: 0 8px 6px -6px $shadow-edge;
+	   -moz-box-shadow: 0 8px 6px -6px $shadow-edge;
+	        box-shadow: 0 8px 6px -6px $shadow-edge;
+	}
+}
+
+
+.site-branding a {
+        text-decoration: none;
+    }
+
+.slogan{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700; 
+	padding-top: 10px;
+	font-size: 1.15rem;
+	color: $primary-blue;
+	text-align: center;
+	
+	&:hover {
+    color: $hover-primary-color;
+  }
+}
+
+@media (max-width: 457px) {
+	.slogan{
+	font-size: .75rem;
+	}	
+}
+
+.site-branding{
+	position: absolute;
+	padding: 10px 0px;
+}
+
+.nav-numb-chat ul li{
+	display: inline-block;
+	font-size: 1.25rem;
+	a{
+		color: $white-color;
+		padding: 20px;
+		line-height: 3;
+		text-decoration: none;
+	}
+}
+
+.nav-numb-chat{
+	float:right;
+}
+
+#mobile{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: $primary-red;
+	font-size: 1.25rem;
+	position: relative;
+	top: 8px;
+	padding-right: 15px;
+}
+
+.mobile-service{
+	
+	text-align: center;
+	border-bottom: #ccc solid 1px;
+	padding:10px 0px;
+	position: relative;
+
+	ul{
+		margin: 0px;
+		padding: 0px;
+	}
+	li{
+		display:inline-block;
+	}
+	li:last-child{
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		color: $primary-red;
+		top: -7px;
+		padding-left: 5px;
+		position: relative;
+		font-size: 1.5rem;
+	}
+}
+
+#header-phone{
+    position: relative;
+    margin-top: 20px;
+    img{
+        float:left;
+        width: 25px;
+    }
+}
+
+.nav-logo-wrapper{
+	padding-top: 0px;
+}
+
+
+/*--------------------------------------------------------------
+# Mobile Header
+--------------------------------------------------------------*/
+
+@media (min-width: 992px) {
+	.mobile-service{
+		display: none;
+	}
+	.mobile-chat{
+		display: none;
+	}
+
+}
+
+
+
+@media (max-width: 991px) {
+	.nav-numb-chat{
+		display: none;
+	}
+
+}
+
+
