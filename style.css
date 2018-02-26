@@ -292,6 +292,14 @@ img {
 .img-circle {
   border-radius: 50%; }
 
+.white-bg {
+  background-color: #ffffff;
+}
+
+.gray-bg {
+  background-color: #ededed;
+}
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -3221,4 +3229,31 @@ i {
 
 img.bbb {
 	width: 50%;
+}
+
+/* MULTI MODULE TEMPLATE */
+.multi-module {
+  padding: 15px 0;
+}
+
+.multi-module h2 {
+  color: #323d83;
+  font-weight: 700;
+  padding: 0 0 1rem 0;
+  text-align: center;
+}
+
+.multi-module div[class^="col"] {
+  margin-bottom: 1.5rem;
+}
+
+@media only screen and ( min-width: 992px ) {
+
+  .multi-module {
+    padding: 30px 0;
+  }
+
+  .multi-module div[class^="col"] {
+    margin-bottom: initial;
+  }
 }
